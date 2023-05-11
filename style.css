@@ -1,0 +1,27 @@
+
+h1 {
+    animation: mudar-cor 2s ease-in-out infinite;
+        font-size: 48px;
+        font-family: Arial, sans-serif;
+        text-shadow: 1px 1px 0px #fff, 2px 2px 0px #aaa, 3px 3px 0px #333;
+      
+  }
+  
+  @keyframes mudar-cor {
+    0% {
+      color: red;
+    }
+    25% {
+      color: green;
+    }
+    50% {
+      color: navy;
+    }
+    75% {
+      color: purple;
+    }
+    100% {
+      color: red;
+    }
+  }
+  
